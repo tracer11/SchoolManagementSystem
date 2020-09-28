@@ -17,5 +17,9 @@ public class Student {
     this.feesPaid = 0;
 
   }
+  // method used for setting/changing grade 
+  public void setGrade(int grade){
+    this.grade = grade;
+  }
 
 }
