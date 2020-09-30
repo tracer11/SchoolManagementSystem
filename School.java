@@ -7,4 +7,11 @@ public class School {
   private int totalMoneyEarned;
   private int totalMoneySpent;
 
+  public School(List<Teacher> teachers, List<Student> students) {
+    this.teachers = teachers;
+    this.students = students;
+    totalMoneyEarned = 0
+    totalMoneySpent = 0
+  }
+
 }
