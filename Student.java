@@ -1,5 +1,5 @@
 // This class will be creating the Student Objects//
-// Name, Grade, Fees Total, Fees Paid
+// Name, Grade, Fees Total, Fees Paid //
 
 public class Student {
   private int id;
@@ -17,9 +17,13 @@ public class Student {
     this.feesPaid = 0;
 
   }
-  // method used for setting/changing grade 
+  // method used for setting/changing grade //
   public void setGrade(int grade){
     this.grade = grade;
+  }
+
+  public void updateFeesPaid(int fees) {
+    feesPaid += fees;
   }
 
 }
