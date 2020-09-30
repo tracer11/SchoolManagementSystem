@@ -1,3 +1,5 @@
+package SchoolManagementSystem
+
 import java.utils.List;
 
 public class School {
@@ -10,8 +12,25 @@ public class School {
   public School(List<Teacher> teachers, List<Student> students) {
     this.teachers = teachers;
     this.students = students;
-    totalMoneyEarned = 0
-    totalMoneySpent = 0
+    totalMoneyEarned = 0;
+    totalMoneySpent = 0;
   }
+
+  public List<Teacher> getTeachers() {
+    return this.teachers;
+  }
+
+  public void addTeacher(Teacher teacher) {
+    this.teachers.add(teacher);
+  }
+
+  public List<Student> getStudents() {
+    return this.students;
+  }
+
+  public void addStudent(Student student) {
+    this.students.add(student);
+  }
+
 
 }

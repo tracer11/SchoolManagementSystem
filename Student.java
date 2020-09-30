@@ -1,3 +1,6 @@
+package SchoolManagementSystem
+
+
 // This class will be creating the Student Objects//
 // Name, Grade, Fees Total, Fees Paid //
 

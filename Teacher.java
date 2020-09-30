@@ -1,3 +1,5 @@
+package SchoolManagementSystem
+
 //This class will be creating Teacher Objects //
 // Id, name, salary //
 
