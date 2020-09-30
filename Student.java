@@ -30,4 +30,23 @@ public class Student {
     feesTotal -= feesPaid;
   }
 
+  public int getId() {
+    return this.id;
+  }
+
+  public String getName() {
+    return this.name;
+  }
+
+  public int getGrade() {
+    return this.grade;
+  }
+
+  public int getFeesTotal() {
+    return this.feesTotal;
+  }
+
+  public int getFeesPaid() {
+    return this.feesPaid;
+  }
 }
