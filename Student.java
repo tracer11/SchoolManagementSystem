@@ -21,9 +21,13 @@ public class Student {
   public void setGrade(int grade){
     this.grade = grade;
   }
-
+  // method for updating fees paid value
   public void updateFeesPaid(int fees) {
     feesPaid += fees;
+  }
+
+  public void updateFeesTotal(int feesPaid) {
+    feesTotal -= feesPaid;
   }
 
 }
