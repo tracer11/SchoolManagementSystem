@@ -36,15 +36,15 @@ public class School {
     return this.totalMoneyEarned;
   }
 
-  public void addTotalMoneyEarned(int MoneyEarned) {
-    this.totalMoneyEarned += MoneyEarned;
+  public void addTotalMoneyEarned(int moneyEarned) {
+    this.totalMoneyEarned += moneyEarned;
   }
 
   public int getTotalMoneySpent() {
     return this.totalMoneySpent;
   }
 
-  public void addTotalMoneySpent(int MoneySpent) {
-    this.totalMoneySpent += MoneySpent;
+  public void addTotalMoneySpent(int moneySpent) {
+    this.totalMoneySpent += moneySpent;
   }
 }
