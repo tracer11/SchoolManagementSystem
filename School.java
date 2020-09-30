@@ -32,5 +32,19 @@ public class School {
     this.students.add(student);
   }
 
+  public int getTotalMoneyEarned() {
+    return this.totalMoneyEarned;
+  }
 
+  public void addTotalMoneyEarned(int MoneyEarned) {
+    this.totalMoneyEarned += MoneyEarned;
+  }
+
+  public int getTotalMoneySpent() {
+    return this.totalMoneySpent;
+  }
+
+  public void addTotalMoneySpent(int MoneySpent) {
+    this.totalMoneySpent += MoneySpent;
+  }
 }
