@@ -52,4 +52,12 @@ public class Student {
   public int getFeesPaid() {
     return this.feesPaid;
   }
+
+  public void payFees(int payment) {
+    feesPaid += payment;
+  }
+
+  public int getFeesUnpaid() {
+    return this.feesTotal - this.feesPaid;
+  }
 }
