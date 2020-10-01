@@ -1,22 +1,27 @@
-package SchoolManagementSystem
+import school.School;
+import teacher.Teacher;
+import student.Student;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
   public static void main(String[] args) {
-    Teacher agata = new Teacher(id:1, name:"Agata", salary:60000);
-    Teacher aneta = new Teacher(id:2, name:"Aneta", salary:55000);
+    Teacher agata = new Teacher(1,"Agata",60000);
+    Teacher aneta = new Teacher(2,"Aneta",55000);
 
     List<Teacher> teacherList = new ArrayList<>();
     teacherList.add(agata);
     teacherList.add(aneta);
 
 
-    Student karol = new Student(id:1, name:"Karol", grade:12);
-    Student jurek = new Student(id:2, name:"Jurek", grade:11);
+    Student karol = new Student(1,"Karol", 12);
+    Student jurek = new Student(2,"Jurek", 11);
 
-    List<Student> studentList = ArrayList<>();
+    List<Student> studentList = new ArrayList<>();
     studentList.add(karol);
     studentList.add(jurek);
 
     School cahs = new School(teacherList, studentList);
+    System.out.println(cahs.getTotalMoneyEarned());
   }
 }

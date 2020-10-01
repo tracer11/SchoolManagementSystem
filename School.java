@@ -1,6 +1,8 @@
-package SchoolManagementSystem
+package school;
 
-import java.utils.List;
+import java.util.List;
+import teacher.Teacher;
+import student.Student;
 
 public class School {
 

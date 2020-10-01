@@ -1,4 +1,4 @@
-package SchoolManagementSystem
+package student;
 
 
 // This class will be creating the Student Objects//
