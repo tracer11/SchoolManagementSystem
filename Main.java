@@ -22,6 +22,8 @@ public class Main {
     studentList.add(jurek);
 
     School cahs = new School(teacherList, studentList);
-    System.out.println(cahs.getTotalMoneyEarned());
+    
+    karol.payFees(20000);
+    System.out.println(karol.getFeesUnpaid());
   }
 }
