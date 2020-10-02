@@ -28,31 +28,31 @@ public class Student {
   public void updateFeesPaid(int fees) {
     feesPaid += fees;
   }
-
+  // fetches id of student object//
   public int getId() {
     return this.id;
   }
-
+  // returns name of student object//
   public String getName() {
     return this.name;
   }
-
+  // returns grade of student object //
   public int getGrade() {
     return this.grade;
   }
-
+  // returns total fees for student//
   public int getFeesTotal() {
     return this.feesTotal;
   }
-
+  // returns amount of fees already paid by student //
   public int getFeesPaid() {
     return this.feesPaid;
   }
-
+  // method for paying off fees //
   public void payFees(int payment) {
     feesPaid += payment;
   }
-
+  // returns fees left unpaid // 
   public int getFeesUnpaid() {
     return this.feesTotal - this.feesPaid;
   }
