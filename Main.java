@@ -23,7 +23,5 @@ public class Main {
 
     School cahs = new School(teacherList, studentList);
     
-    karol.payFees(20000);
-    System.out.println(karol.getFeesUnpaid());
   }
 }
