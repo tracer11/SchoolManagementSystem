@@ -1,4 +1,5 @@
 package student;
+import school.School;
 
 
 // This class will be creating the Student Objects//
@@ -51,6 +52,7 @@ public class Student {
   // method for paying off fees //
   public void payFees(int payment) {
     feesPaid += payment;
+    School.addTotalMoneyEarned(payment);
   }
   // returns fees left unpaid // 
   public int getFeesUnpaid() {
