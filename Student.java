@@ -29,10 +29,6 @@ public class Student {
     feesPaid += fees;
   }
 
-  public void updateFeesTotal(int feesPaid) {
-    feesTotal -= feesPaid;
-  }
-
   public int getId() {
     return this.id;
   }
