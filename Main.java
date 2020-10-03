@@ -22,6 +22,8 @@ public class Main {
     studentList.add(jurek);
 
     School cahs = new School(teacherList, studentList);
-    
+
+    agata.getPayed(agata.getSalary());
+    System.out.println(agata.getSalaryEarned());
   }
 }

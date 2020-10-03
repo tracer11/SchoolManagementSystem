@@ -46,12 +46,7 @@ public class School {
     return this.totalMoneySpent;
   }
 
-  public void addTotalMoneySpent(int moneySpent) {
-    this.totalMoneySpent += moneySpent;
+  public static void addTotalMoneySpent(int moneySpent) {
+    totalMoneySpent += moneySpent;
   }
-
-  public void payTeacherSalary(Teacher teacher) {
-    totalMoneySpent += Teacher.getSalary();
-  }
-
 }
