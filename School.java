@@ -50,4 +50,8 @@ public class School {
     this.totalMoneySpent += moneySpent;
   }
 
+  public void payTeacherSalary(Teacher teacher) {
+    totalMoneySpent += Teacher.getSalary();
+  }
+
 }

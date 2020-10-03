@@ -6,7 +6,7 @@ package teacher;
 public class Teacher {
   private int id;
   private String name;
-  private int salary;
+  private static int salary;
 
   public Teacher(int id, String name, int salary) {
     this.id = id;
@@ -23,8 +23,8 @@ public class Teacher {
     return this.name;
   }
 
-  public int getSalary() {
-    return this.salary;
+  public static int getSalary() {
+    return salary;
   }
 
   public void setSalary(int salary) {
