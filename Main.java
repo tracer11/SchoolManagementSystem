@@ -23,7 +23,7 @@ public class Main {
 
     School cahs = new School(teacherList, studentList);
 
-    agata.getPayed(agata.getSalary());
-    System.out.println(agata.getSalaryEarned());
+    System.out.println(karol.graduate());
+
   }
 }

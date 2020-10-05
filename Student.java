@@ -22,8 +22,15 @@ public class Student {
 
   }
   // method used for setting/changing grade //
-  public void setGrade(int grade){
-    this.grade = grade;
+  public String graduate(){
+    String gradMessage = " ";
+    if (this.grade < 12) {
+      this.grade += 1;
+      gradMessage = this.name + " is moving up to grade " + this.grade;
+    } else {
+      gradMessage = this.name + " has graduated High School!";
+    }
+    return gradMessage;
   }
   // method for updating fees paid value
   public void updateFeesPaid(int fees) {
