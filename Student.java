@@ -65,4 +65,9 @@ public class Student {
   public int getFeesUnpaid() {
     return this.feesTotal - this.feesPaid;
   }
+
+  @Override
+  public String toString() {
+    return "Name: " + name + " Grade: " + grade + " Still owes " + getFeesUnpaid() + " in unpaid fees.";
+  }
 }
