@@ -42,4 +42,9 @@ public class Teacher {
   public int getSalaryEarned() {
     return this.salaryEarned;
   }
+
+  @Override
+  public String toString() {
+    return "Name:" + name + " Salary: " + salary;
+  }
 }

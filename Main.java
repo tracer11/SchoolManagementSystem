@@ -23,6 +23,7 @@ public class Main {
 
     School cahs = new School(teacherList, studentList);
 
-    System.out.println(karol.toString());
+    System.out.println(karol);
+    System.out.println(agata);
   }
 }

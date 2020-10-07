@@ -68,6 +68,6 @@ public class Student {
 
   @Override
   public String toString() {
-    return "Name: " + name + " Grade: " + grade + " Still owes " + getFeesUnpaid() + " in unpaid fees.";
+    return "Name:" + name + " Grade: " + grade + " Still owes " + getFeesUnpaid() + " in unpaid fees.";
   }
 }
